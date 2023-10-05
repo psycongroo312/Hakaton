@@ -1,0 +1,39 @@
+.wrapper-region{
+    background-color: yellow;
+     margin-inline: auto;
+     width: 1920px;
+     
+}
+
+.wrapper-region__map-region{
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-region__MP-top{
+    width: 1120px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+/* .wrapper-region__MP-bottom{
+    display: flex;
+    
+} */
+
+.city{
+    width: 300px;
+    padding: 20px;
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 24px;
+    margin-inline: 10px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.city:hover{
+    background-color: hsl(197, 100%, 81%);
+}
